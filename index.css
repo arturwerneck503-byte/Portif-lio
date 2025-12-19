@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(#3a3a3a,#000000);
+    color: #d1d1d1;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 9px solid gray;
+}
+
+.foto {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #3a3a3a; 
+    border: 2px solid gray;
+}
+
+h3 {
+    color:aqua;
+}
+.Experiências {
+    display: flex;
+    justify-content: center;
+}
+.Linkzin {
+    background-color: aqua; 
+    color: white;              
+    padding: 10px 20px;       
+    text-decoration: none;     
+    border-radius: 5px;        
+    display: inline-block; 
+    font-weight: bold;
+}
+.botao-link:hover {
+    background-color: #3a3a3a;
+}
+.FotoM {
+    border-radius: 50%;
+    height: 200px;
+    width: 200;
+}
+nav{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+.Certificado1{
+    height: 400px;
+    width: 200px;
+    transform: rotate(90deg);
+     margin-left: 100px;
+}
+.Certificado2{
+    height: 400px;
+    width: 200px;
+    transform: rotate(90deg);
+}
+div li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  margin-left: 30px;
+}
+div ul{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  margin: 30px;
+}
